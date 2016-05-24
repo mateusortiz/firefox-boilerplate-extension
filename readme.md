@@ -1,0 +1,3 @@
+# Boilerplate Firefox Extension
+
+...
