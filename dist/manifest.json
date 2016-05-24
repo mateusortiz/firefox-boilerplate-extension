@@ -1,0 +1,8 @@
+{
+    "manifest-version": 2,
+    "name": "Boilerplate Extension",
+    "version": "0.0",
+    "browser-action": {
+        "default_popup": "popup.html"
+    }
+}
