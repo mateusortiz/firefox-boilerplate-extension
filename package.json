@@ -1,0 +1,11 @@
+{
+  "name": "firefox-extension",
+  "version": "0.0.0",
+  "description": "My Firefox Extension",
+  "main": "dist/js/popup.js",
+  "license": "MIT",
+  "keywords": [
+    "firefox",
+    "extension"
+  ]
+}
