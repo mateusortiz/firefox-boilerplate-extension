@@ -7,5 +7,12 @@
   "keywords": [
     "firefox",
     "extension"
-  ]
+  ],
+  "devDependencies": {
+    "node-sass": "^3.7.0"
+  },
+  "scripts": {
+    "build": "npm run build:styles",
+    "build:styles": "node-sass src/styles/popup.scss dist/styles/popup.css -q"
+  }
 }
