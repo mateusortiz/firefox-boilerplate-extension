@@ -9,10 +9,12 @@
     "extension"
   ],
   "devDependencies": {
-    "node-sass": "^3.7.0"
+    "node-sass": "^3.7.0",
+    "onchange": "^2.4.0"
   },
   "scripts": {
     "build": "npm run build:styles",
-    "build:styles": "node-sass src/styles/popup.scss dist/styles/popup.css -q"
+    "build:styles": "node-sass src/styles/popup.scss dist/styles/popup.css -q",
+    "watch": "onchange 'src/styles/*.scss' -- npm run build styles"
   }
 }
