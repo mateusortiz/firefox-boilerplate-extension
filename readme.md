@@ -2,7 +2,23 @@
 
 > Clone and Make your extension on Firefox
 
+
+## Setup
+
+Install dependencies:
+
+```sh
+npm install
+```
+
+Compile:
+
+```sh
+npm start
+```
+
 ...
+
 
 ## License
 
