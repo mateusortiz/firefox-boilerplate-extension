@@ -4,7 +4,8 @@ body {
   margin: 0; }
 
 p {
-  margin: 10px; }
+  margin: 10px;
+  text-align: center; }
 
 .wrapper {
   width: 325px; }
@@ -14,3 +15,8 @@ p {
   margin: 0 auto;
   padding: 40px;
   height: 226px; }
+
+.title {
+  border: 5px solid #eee;
+  width: 200px;
+  margin: 10px auto; }
