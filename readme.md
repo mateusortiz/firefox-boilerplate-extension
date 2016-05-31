@@ -22,7 +22,9 @@ npm start
 2. `Load temporary Add-on`
 3. Select the `manifest.json` 
 
-...
+## Credits
+
+* Icons by [Sunbzy](https://dribbble.com/sunbzy)
 
 ## License
 
