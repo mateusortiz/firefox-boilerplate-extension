@@ -15,6 +15,7 @@
   "scripts": {
     "build": "npm run build:styles",
     "build:styles": "node-sass src/styles/popup.scss dist/styles/popup.css -q",
-    "watch": "onchange 'src/styles/*.scss' -- npm run build styles"
+    "watch": "onchange 'src/styles/*.scss' -- npm run build styles",
+    "firefox": "cd dist && zip -r ../boilerplate-firefox-extension.xpi * && cd .."
   }
 }
