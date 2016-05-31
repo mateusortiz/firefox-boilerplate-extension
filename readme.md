@@ -2,7 +2,6 @@
 
 > Clone and Make your extension on Firefox
 
-
 ## Setup
 
 Install dependencies:
@@ -17,8 +16,13 @@ Compile:
 npm start
 ```
 
-...
+## Debug
 
+1. Go to `about:debugging`
+2. `Load temporary Add-on`
+3. Select the `manifest.json` 
+
+...
 
 ## License
 
