@@ -22,6 +22,13 @@ npm start
 2. `Load temporary Add-on`
 3. Select the `manifest.json` 
 
+## Packaging on Firefox
+
+Generate the `.xpi` package
+
+1. `npm run firefox`
+2. Done!
+
 ## Credits
 
 * Icons by [Sunbzy](https://dribbble.com/sunbzy)
