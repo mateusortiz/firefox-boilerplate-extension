@@ -13,13 +13,13 @@ npm install
 Compile:
 
 ```sh
-npm start
+npm run build
 ```
 
 ## Debug
 
 1. Go to `about:debugging`
-2. `Load temporary Add-on`
+2. Click in `Load temporary Add-on` button
 3. Select the `manifest.json` 
 
 ## Packaging on Firefox
