@@ -9,8 +9,8 @@
     "extension"
   ],
   "devDependencies": {
-    "node-sass": "^3.7.0",
-    "onchange": "^2.4.0"
+    "node-sass": "3.7.0",
+    "onchange": "2.4.0"
   },
   "scripts": {
     "build": "npm run build:styles",

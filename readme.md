@@ -2,6 +2,8 @@
 
 > Clone and Make your extension on Firefox
 
+Coming Soon: [Chrome Compatibility and Android Support](https://blog.mozilla.org/addons/2016/04/29/webextensions-in-firefox-48/).
+
 ## Setup
 
 Install dependencies:
