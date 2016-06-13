@@ -15,9 +15,16 @@
     "onchange": "2.4.0"
   },
   "scripts": {
-    "build": "npm run build:styles",
+    "build": "npm run build:scripts && npm run build:styles",
+    "build:scripts": "babel src/scripts/popup.js > dist/scripts/popup.js",
     "build:styles": "node-sass src/styles/popup.scss dist/styles/popup.css -q",
     "watch": "onchange 'src/styles/*.scss' -- npm run build styles",
     "firefox": "cd dist && zip -r ../boilerplate-firefox-extension.xpi * && cd .."
+  },
+
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   }
 }
